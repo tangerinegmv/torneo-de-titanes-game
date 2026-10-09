@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/tl1-proyectofinal2024-tangerinegmv.csproj", //CAMBIAR POR EL NOMBRE DEL ARCHIVO .csproj QUE ESTA EN LA CARPETA RAIZ 
+                "${workspaceFolder}/src/TorneoDeTitanes.Console/TorneoDeTitanes.Console.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/tl1-proyectofinal2024-tangerinegmv.csproj", //CAMBIAR POR EL NOMBRE DEL ARCHIVO .csproj QUE ESTA EN LA CARPETA RAIZ
+                "${workspaceFolder}/src/TorneoDeTitanes.Console/TorneoDeTitanes.Console.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,19 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/tl1-proyectofinal2024-tangerinegmv.csproj" //CAMBIAR POR EL NOMBRE DEL ARCHIVO .csproj QUE ESTA EN LA CARPETA RAIZ
+                "${workspaceFolder}/src/TorneoDeTitanes.Console/TorneoDeTitanes.Console.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "test",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/TorneoDeTitanes.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
             "problemMatcher": "$msCompile"
         }

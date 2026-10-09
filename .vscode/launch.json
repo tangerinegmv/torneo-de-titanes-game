@@ -5,25 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (web)",
+            "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net8.0/tl1-proyectofinal2024-tangerinegmv.dll", //CAMBIAR POR EL NOMBRE DEL .dll QUE ESTA EN LA CARPETA "bin"
+            "program": "${workspaceFolder}/src/TorneoDeTitanes.Console/bin/Debug/net8.0/TorneoDeTitanes.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
-            "console":"integratedTerminal",
-            "stopAtEntry": false,
-            "serverReadyAction": {
-                "action": "openExternally",
-                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
-            },
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
-            }
+            "cwd": "${workspaceFolder}/src/TorneoDeTitanes.Console",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
         },
         {
             "name": ".NET Core Attach",

@@ -125,4 +125,4 @@ La API devuelve, entre otros campos: `id`, `name`, `img`, `alias`, `species`, `g
 - **Correo**: gimenezmariavictoria@gmail.com
 - **GitHub**: [tangerinegmv](https://github.com/tangerinegmv)
 
-> El **código original del taller** (prototipo monolítico) se conserva en [`legacy/`](legacy); el código principal vive bajo `src/`.
+> El **primera versión del código** (prototipo monolítico) se conserva en [`legacy/`](legacy); el código principal vive bajo `src/`.
